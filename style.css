@@ -1,0 +1,183 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.footer {
+  background: #0a3d62;
+  color: #fff;
+  padding: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  display: flex;
+  flex-direction: row;
+}
+
+.header {
+  background: #0a3d62;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 40px 20px;
+}
+
+.container {
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.brand-logo {
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-weight: bolder;
+}
+.container-content {
+  width: 100%;
+  padding-bottom: 30px;
+}
+
+.container-content-h1 {
+  font-size: 20px;
+  padding-bottom: 15px;
+  text-decoration: underline;
+}
+
+#html5 {
+  height: 220px;
+}
+.markdown {
+  width: 100%;
+  height: 310px;
+  padding: 10px;
+  font-size: 16px;
+  resize: none;
+}
+.response {
+  background-color: #4c4b4b;
+  padding: 15px 10px;
+  font-size: 0.9rem;
+  color: #eaf0f1;
+}
+
+code {
+  font-size: 20px;
+}
+
+.response > h1,
+.response > h2,
+.response > h3,
+.response > h4,
+.response > h5,
+.response > h6,
+.response > p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+ul,
+ol {
+  list-style-position: inside;
+  margin-bottom: 15px;
+}
+
+.copy_btn {
+  padding: 15px;
+  background: #f0df87;
+  border: none;
+  outline: none;
+  transition: all 100ms ease-in-out;
+  font-weight: bolder;
+  font-size: 16px;
+  margin: auto;
+}
+
+.copy_btn:hover {
+  background: #dfaf2b;
+}
+
+a {
+  color: #f0df87;
+}
+a:hover {
+  font-size: 20px;
+  color: #f0df87;
+}
+
+a:visited {
+  color: #dfaf2b;
+}
+
+.yellow-text {
+  color: #eec213;
+}
+
+.punchline {
+  color: #eec213;
+}
+
+.left-half {
+  width: 50%;
+}
+
+.right-half {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 50%;
+  font-size: 30px;
+  padding-right: 10px;
+}
+
+.footer-text{
+    margin-top: 15px;
+}
+
+.butt{
+  margin: 10px;
+}
+.butt:hover{
+  font-size: 30px;
+}
+
+.navbar{
+  display: flex;
+  flex-direction: row;
+  background: #032035;
+}
+
+.navbar > div > a{
+  text-decoration: none;
+  font-size: 18px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  color: #fff;
+  
+}
+
+
+.navbar > div > a:hover{
+  font-size: 22px;
+
+}
+
+.navbar > div {
+  width: 33.33%;
+  text-align: center;
+  margin: 10px;
+  padding: 20px;
+}
+
+#activelink{
+  color: #F0DF87;
+  text-decoration: underline;
+}
+
+
+a{
+  text-decoration: none;
+}
+
+h3{
+  margin-top: 20px;
+}
+

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HANDY-WRITE || WRITE MARKDOWN AND GET YOUR HTML</title>
+    <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+    
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div class="brand-logo"><span class= yellow-text>HANDY</span>-WRITE</div>
+            <p class="punchline">A handy online editor to write markdown and have a .doc file out of it easily!</p>
+        </div>
+        <div class="navbar">
+            <div class="links"><a href="/" id="activelink">HOME</a></div>
+            <div class="links"><a href="/about.html">ABOUT</a></div>
+            <div class="links"><a href="https://github.com/" target="_blank">GITHUB-REPO</a></div>
+        </div>
+        <div class="container">
+            <div class="container-content">
+                <h1 class = "container-content-h1">MARKDOWN TEXT</h1>
+                <textarea name="markdown" id="markdown" class= "markdown" cols="30" rows="10"></textarea>
+                <button class = "copy_btn" onclick="copymarkdown()">
+                    DOWNLOAD_MARKDOWN
+                </button>
+                <br>
+                <h3>OR</h3>
+                <br>
+                <input type="file" id="file" name="file" enctype="multipart/form-data"/>
+            </div>
+            <div class="container-content">
+                    <h1 class = "container-content-h1">RICH TEXT</h1>
+                    <button class = "copy_btn" onclick="copytext()">DOWNLOAD-TEXT</button>
+                    <div class="response" id = "response"></div>
+            </div>
+            <div>
+                    <h1 class = "container-content-h1">HTML5(Source Code)</h1>
+                    <button class = "copy_btn" onclick="copyhtml()">COPY-HTML</button>
+                    <textarea name="markdown" id="html5" class= "markdown" cols="30" rows="10" disabled></textarea>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="left-half">
+                <p class="footer-text">&#9400;AYUSHMAN001</p>
+            </div>
+            <div class="right-half">
+                <div>
+                    <a href="https://marked.js.org" target="_blank">
+                        <i class="fa fa-github butt"></i>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://marked.js.org" target="_blank">
+                        <i class="fab fa-pyhton butt"></i>
+                    </a>
+                </div>
+                    
+            </div>
+            
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
