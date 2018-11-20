@@ -114,6 +114,7 @@ a:visited {
 
 .punchline {
   color: #eec213;
+  margin-bottom: 40px;
 }
 
 .left-half {
@@ -181,10 +182,14 @@ h1,h2{
   margin: 20px 0px;
 }
 
-.link-on-white{
-  font-weight: bold;
+h3{
+  margin-top: 20px;
 }
 
+.link-on-white{
+  font-weight: bold;
+  color: #4834DF;
+}
 
 .link-on-white:active{
   color: #4834DF;
@@ -193,10 +198,28 @@ h1,h2{
 .link-on-white:visited{
   color: #0A79DF;
 }
+
 .link-on-white:hover{
   color: #E8290B;
 }
 
 li{
   margin-bottom: 10px;
+}
+
+
+.focus-link{
+  background: #74B9FF;
+  padding: 20px;
+  font-weight: bold;
+  border-radius: 20px;
+
+}
+
+.focus-link:visited{
+  color: #111;
+}
+
+.focus-link:active{
+  color: #222;
 }
