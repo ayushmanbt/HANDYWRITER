@@ -6,4 +6,5 @@ This project idea came to my mind when I found a markdown writer for android nam
 
 ### SPECIAL THANKS TO:-
 
-* [marked.js](https://marked.js.org/) for converting markdown to HTML
+* [marked.js](https://marked.js.org/) for converting markdown to HTML.
+* [UI Color Picker](http://uicolorpicker.com/) for color accent of this page.

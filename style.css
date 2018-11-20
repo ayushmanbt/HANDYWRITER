@@ -177,7 +177,26 @@ a{
   text-decoration: none;
 }
 
-h3{
-  margin-top: 20px;
+h1,h2{
+  margin: 20px 0px;
 }
 
+.link-on-white{
+  font-weight: bold;
+}
+
+
+.link-on-white:active{
+  color: #4834DF;
+}
+
+.link-on-white:visited{
+  color: #0A79DF;
+}
+.link-on-white:hover{
+  color: #E8290B;
+}
+
+li{
+  margin-bottom: 10px;
+}
