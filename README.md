@@ -1,4 +1,4 @@
-# [HANDY-WRITE || WRITE MARKDOWN AND GET YOUR HTML] (https://ayushmanbilasthakur.github.io/HANDYWRITER/)
+# [HANDY-WRITE || WRITE MARKDOWN AND GET YOUR HTML](https://ayushmanbilasthakur.github.io/HANDYWRITER/)
 
 ## About This Project
 
